@@ -1,0 +1,10 @@
+crewai
+exa-py
+langchain
+langchain-google-genai
+streamlit
+google-genai
+exa_py
+sendgrid
+python-dotenv
+-e. 

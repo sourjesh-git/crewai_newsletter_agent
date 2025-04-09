@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Newsletter</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #8A2BE2, #FF69B4);
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #6A0DAD;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #9932CC;
+            margin-top: 20px;
+        }
+
+        /* News Item Styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        .read-more {
+            margin-top: 15px;
+        }
+
+        .read-more p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .read-more a {
+            color: #FF1493;
+            text-decoration: none;
+        }
+
+        .read-more a:hover {
+            text-decoration: underline;
+        }
+
+        /* Goodbye Message */
+        .goodbye {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.1em;
+            color: #8A2BE2;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Newsletter</h1>
+        <p>testing</p>
+        <ul>
+            <li>
+                <h2>New AI Jailbreak Method 'Bad Likert Judge' Exposes Critical Vulnerabilities in LLMs</h2>
+                <p>Researchers have discovered a new jailbreak technique called "Bad Likert Judge" that can bypass the safety guardrails of large language models. This method uses the LLM itself to judge the harmfulness of responses, increasing the attack success rate by more than 60%. The research highlights the importance of implementing comprehensive content filtering when deploying LLMs.</p>
+                <p>This new jailbreak method demonstrates the fragility of current safety measures in large language models. The fact that an LLM can be tricked into judging the harmfulness of its own responses and then generate malicious content underscores the urgent need for more robust defense mechanisms and comprehensive content filtering. This vulnerability poses significant risks, especially as LLMs are increasingly integrated into sensitive applications.</p>
+                <div class="read-more">
+                    <p>Read more:</p>
+                    <ul>
+                        <li><a href="https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html">The Hacker News Article</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <h2>2024: A Year of Explosive Growth and Transformation for Large Language Models</h2>
+                <p>This article reviews key developments in Large Language Models (LLMs) in 2024. It notes that multiple organizations now have models surpassing the original GPT-4, and highlights advancements like longer input context lengths and multimodal capabilities. It also mentions the decrease in LLM prices and the increase in their environmental impact.</p>
+                 <p>This article provides a critical overview of the rapid advancements in LLMs throughout 2024. It highlights the significant progress made, with multiple organizations now surpassing the original GPT-4, the introduction of longer input context lengths and multimodal capabilities, as well as the decrease in prices and increase in environmental impact. This is important for readers to understand the pace of development in AI and its growing impact on society.</p>
+                <div class="read-more">
+                    <p>Read more:</p>
+                     <ul>
+                        <li><a href="https://oodaloop.com/briefs/technology/things-we-learned-about-llms-in-2024/">OODA Loop Article</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <h2>AI Revolutionizes DevOps: Automating Tasks and Enhancing Efficiency</h2>
+                <p>This article discusses how AI is transforming DevOps by automating tasks, predicting bottlenecks, and improving CI/CD pipelines. It emphasizes AI's role in enhancing efficiency, performance monitoring, incident management, and allowing DevOps teams to focus on strategic activities.</p>
+                <p>This article highlights the significant impact of AI on DevOps practices. By automating tasks, predicting bottlenecks, and improving CI/CD pipelines, AI enables DevOps teams to operate more efficiently and focus on strategic initiatives. This transformation is crucial for organizations looking to accelerate development cycles, improve software quality, and maintain a competitive edge.</p>
+                <div class="read-more">
+                    <p>Read more:</p>
+                    <ul>
+                        <li><a href="https://dev.to/basel5001/revolutionizing-devops-with-ai-the-future-is-here-26p2">Dev.to Article</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <h2>The Rise of Small Language Models: Efficiency and Accessibility in AI</h2>
+                <p>The article highlights the rise of smaller, more efficient language models. These models, trained on focused datasets, can perform as well as larger models on specific tasks. Smaller models also offer benefits like reduced training time, lower costs, and less energy consumption, enabling deployment on edge devices.</p>
+                <p>This article highlights the growing importance of smaller, more efficient language models. These models, trained on focused datasets, can perform as well as larger models on specific tasks, while offering benefits like reduced training time, lower costs, and less energy consumption. This development is important as it makes AI more accessible and sustainable, enabling deployment on edge devices and democratizing AI technology.</p>
+                <div class="read-more">
+                    <p>Read more:</p>
+                    <ul>
+                        <li><a href="https://www.technologyreview.com/2025/01/03/1108800/small-language-models-ai-breakthrough-technologies-2025/">MIT Technology Review Article</a></li>
+                    </ul>
+                </div>
+            </li>
+             <li>
+                <h2>Google DeepMind's InfAlign: Revolutionizing Language Model Alignment for Enhanced Inference</h2>
+                <p>Google DeepMind has introduced InfAlign, a framework that aligns language models with inference-aware strategies. This framework improves model performance during inference by incorporating techniques like Best-of-N sampling, leading to increased win rates and more reliable outputs.</p>
+                <p>This article introduces InfAlign, a new framework that improves the performance of language models during inference by aligning them with inference-aware strategies. This is a significant advancement because it addresses the gap between training and real-world application, leading to more reliable outputs and increased win rates. This framework is crucial for ensuring that language models perform consistently and effectively in diverse scenarios.</p>
+                <div class="read-more">
+                    <p>Read more:</p>
+                    <ul>
+                        <li><a href="https://www.marktechpost.com/2025/01/01/google-deepmind-researchers-introduce-infalign-a-machine-learning-framework-for-inference-aware-language-model-alignment/">MarkTechPost Article</a></li>
+                    </ul>
+                </div>
+            </li>
+             <li>
+                <h2>Fine-Tuning AI Agents: New Project Instructions for Enhanced Control</h2>
+                <p>This article announces new features that allow users to define custom instructions or rules for AI agents within projects. These instructions can be used to set coding style preferences, include external documentation, and apply specific conventions, offering more control over the AI's behavior in different projects.</p>
+                <p>This article announces a new feature that allows users to define custom instructions for AI agents within projects. This allows for more control over the AI's behavior, enabling users to set coding style preferences, include external documentation, and apply specific conventions. This is important for ensuring that AI agents align with specific project requirements and improve the quality and consistency of their output.</p>
+                 <div class="read-more">
+                    <p>Read more:</p>
+                    <ul>
+                        <li><a href="https://dev.to/thisisfinedev/new-fine-updates-project-instructions-more-42f">Dev.to Article</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <p class="goodbye">Goodbye and see you tomorrow!</p>
+    </div>
+</body>
+</html>
